@@ -9,7 +9,7 @@ class VerificationController extends Controller
 {
     /*
     |--------------------------------------------------------------------------
-    | Email Verification Controller
+    | Feedback Verification Controller
     |--------------------------------------------------------------------------
     |
     | This controller is responsible for handling email verification for any
