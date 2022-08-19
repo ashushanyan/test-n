@@ -1,0 +1,255 @@
+#app, body, html {
+    background-color: #d9fffa;
+}
+h1,h2,h3,h4,h5,p,a {
+    color: #074752!important;
+}
+.logo img{
+    width: 100px;
+    border-radius: 5px;
+}
+.star-img {
+    position: relative;
+}
+body {
+    background-color: #ffffff;
+    font-size: 16px;
+}
+.star-image {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 13px;
+}
+*{
+    font-family: Slack-Lato,appleLogo,sans-serif;
+    margin: 0;
+    border: 0;
+    padding: 0;
+    list-style: none;
+}
+a {
+    text-decoration: none!important;
+}
+.ptable table{
+    margin: 30px auto;
+    border-collapse: collapse;
+}
+
+.ptable{
+    margin: 0px 0% 30px 0%;
+}
+
+.standing_th{
+    background-color: #376200!important;
+}
+
+/*.standing_td{*/
+/*    padding: 10px;*/
+/*}*/
+
+.headin{
+    text-align: center;
+    text-decoration: none;
+    color: #000000;
+    margin: 30px;
+    display: block;
+}
+
+.wpos{
+    text-align: center;
+}
+
+.wpos td{
+    color: #77ff21;
+}
+
+.pos{
+    text-align: center;
+}
+
+.pos td{
+    color: #ff7b21;
+}
+
+table .col{
+    border-bottom: 1px solid #FFFFFF;
+    border-radius: 10px;
+}
+
+.wpos:hover{
+    background-color: #77ff21;
+}
+
+.wpos:hover td{
+    color: #000000;
+}
+
+.pos:hover{
+    background-color: #ff7b21;
+}
+
+.pos:hover td{
+    color: #000000;
+}
+
+.nav-ul a,.create-btn, .t-name{
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 700;
+    margin-left: 9px;
+    position: relative;
+    cursor: pointer;
+    line-height: 1em;
+    padding: 8px 7px 9px;
+    opacity: .8;
+    color: #616061;
+    outline: 1px groove #72dfd0;
+}
+.nav-ul a:hover,.update-game-score-btn:hover,.custom-btn:hover,.create-btn:hover {
+    opacity: 1;
+    background: #72dfd0;
+    outline: none;
+    transition: 0.5s;
+    color: #fff;
+}
+
+.t-name {
+    font-size: 14px;
+    text-transform: uppercase;
+    outline: none;
+    font-weight: normal!important;
+    border-bottom: 3px solid #72dfd0;
+    border-radius: 5px;
+}
+.border_bottom {
+    border-bottom: 3px solid #72dfd0;
+}
+.t-name:hover {
+    /*opacity: 1;*/
+    background: #72dfd0;
+    outline: none;
+    transition: 0.5s;
+    color: white;
+    border-bottom:3px solid #074752;
+}
+
+.nav-right-name {
+    box-shadow: inset 0 0 0 2px #616061;
+    border-radius: 4px;
+}
+.nav-right-name a{
+    padding: 10px 14px 12px;
+    line-height: 1em;
+    text-decoration: none;
+    font-size: 12pt;
+}
+.navbar-nav a,.update-game-score-btn,.custom-btn, .t-name, .create-btn {
+    opacity: .8;
+    cursor: pointer;
+    font-weight: 700;
+    color: #074752;
+}
+.update-game-score-btn,.custom-btn {
+    background-color: white;
+    padding: 3px 9px;
+    border-radius: 5px;
+    border: 1px solid #616061;
+}
+.custom-btn:hover {
+    color: #616061;
+}
+
+.error-message {
+    color: #a90404;
+    font-size: 12px;
+    margin-bottom: 0;
+}
+.standing-table {
+    box-shadow: inset 0 0 0 2px #616061;
+}
+.games-main-div {
+    overflow: hidden;
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+}
+.team-left {
+    float: left;
+}
+.team-right {
+    float: right;
+}
+.team-right input,.team-left input {
+    height: 35px;
+    width: 40px;
+    text-align: center;
+}
+.tournament-listing-a {
+    opacity: .8;
+    cursor: pointer;
+    font-weight: 500;
+    color: #616061;
+    display: inline;
+    width: 100%;
+    margin-left: 8px;
+}
+.tournament-listing-a:hover {
+    padding-bottom: 5px;
+    border-bottom: 2px solid;
+    color: #616061;
+    font-weight: 600;
+}
+.delete-i {
+    color: #ff2213;
+}
+.tournament-listing-delete button{
+    background-color: white;
+    cursor: pointer;
+}
+.submit-btn-div-show {
+    width: 60px;
+    height: 40px;
+}
+.form-div-tour-list {
+    margin: 9px auto;
+    border-bottom: 1px solid    ;
+}
+.score-input {
+    border: 1px groove;
+    border-radius: 3px;
+}
+.gaming-row-team-logo {
+    width: 25px;
+}
+/*media*/
+@media only screen and (max-width: 1200px) {
+    * {
+        font-size: 13px;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    * {
+        font-size: 12px;
+    }
+    .team-right input,.team-left input {
+        height: 30px;
+        width: 30px;
+    }
+    .gaming-row-team-logo {
+        width: 23px;
+    }
+    .games-main-div {
+        width: 80%;
+    }
+}
+@media only screen and (max-width: 993px) {
+    * {
+        font-size: 14px;
+    }
+    .gaming-row-team-name {
+        display: none;
+    }
+}
